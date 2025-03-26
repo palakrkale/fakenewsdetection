@@ -7,7 +7,7 @@ from nltk.stem import WordNetLemmatizer
 import contractions
 import gensim
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.svm import LinearSVC
+from sklearn.linear_model import LogisticRegression
 
 # Download NLTK resources
 nltk.download('stopwords')
