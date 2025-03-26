@@ -83,10 +83,10 @@ def preprocess(text):
     return " ".join(result)
 
 # Load the vectorizer and model
-with open("/Users/pk/Desktop/vectorization_0.pkl", "rb") as f:
+with open("vectorization_0.pkl", "rb") as f:
     vectorizer = pickle.load(f)
 
-with open("/Users/pk/Desktop/LR_model.pkl", "rb") as f:
+with open("LR_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # Streamlit app
