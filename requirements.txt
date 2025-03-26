@@ -1,1 +1,1 @@
-import pickle re nltk stopwords WordNetLemmatizer contractions gensim TfidfVectorizer LogisticRegression
+import pickle re nltk stopwords WordNetLemmatizer contractions gensim
