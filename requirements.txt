@@ -5,5 +5,3 @@ nltk==3.8.1
 gensim==4.3.2
 scikit-learn==1.3.2
 contractions==0.1.73
-
-&& python -m nltk.downloader stopwords wordnet punkt
