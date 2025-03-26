@@ -1,4 +1,3 @@
-streamlit
 pickle
 re
 nltk
@@ -6,5 +5,4 @@ stopwords
 WordNetLemmatizer
 contractions
 gensim
-TfidfVectorizer
-LogisticRegression
+LinearSVC
